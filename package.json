@@ -12,8 +12,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/pjjanak/react-native-nested-stylesheets.git"
-  },
-  "dependencies": {
-    "react-native": "^0.3.1"
   }
 }
