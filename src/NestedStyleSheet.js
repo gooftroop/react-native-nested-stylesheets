@@ -1,6 +1,6 @@
 'use strict';
 
-var StyleSheetRegistry = require('StyleSheetRegistry');
+var ReactNativePropRegistry = require('ReactNativePropRegistry');
 var StyleSheetValidation = require('StyleSheetValidation');
 
 var NestedStyleSheetValidation = require('./NestedStyleSheetValidation');
@@ -17,7 +17,7 @@ class NestedStyleSheet {
               result[key] = NestedStyleSheet.create(styleObj);
             } else {
               StyleSheetValidation.validateStyle(key, obj);
-              result[key] = StyleSheetRegistry.registerStyle(styleObj);
+              result[key] = ReactNativePropRegistry.registerStyle(styleObj);
             }
         }
         return result;
