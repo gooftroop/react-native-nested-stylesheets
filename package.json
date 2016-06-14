@@ -14,6 +14,6 @@
     "url": "https://github.com/pjjanak/react-native-nested-stylesheets.git"
   },
   "peerDependencies": {
-    "react-native": "^0.24"
+    "react-native": ">=0.24"
   }
 }
