@@ -1,6 +1,6 @@
 {
   "name": "react-native-nested-stylesheet",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Nestable stylesheets for react-native.",
   "keywords": ["react-component", "react-native", "react", "ios", "style", "stylesheet", "react native"],
   "bugs": "https://github.com/pjjanak/react-native-nested-stylesheets/issues",
@@ -14,6 +14,6 @@
     "url": "https://github.com/pjjanak/react-native-nested-stylesheets.git"
   },
   "peerDependencies": {
-    "react-native": ">=0.24"
+    "react-native": "^0.24"
   }
 }
